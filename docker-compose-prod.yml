@@ -11,7 +11,7 @@ services:
     depends_on:
       - db
     environment:
-      - "DJANGO_SECRET_KEY=Pw4bGsOYVVj0OodKGW8dE_hGryAioFnpGs4aRaObtb6IMSz6cUM"
+      - "DJANGO_SECRET_KEY="
   db:
     image: postgres:11
     volumes:
